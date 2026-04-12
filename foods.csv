@@ -1,0 +1,94 @@
+Food,Calories,Protein,Carbs,Category 
+Dal (Lentils),230,18,40,Underweight 
+Rice,130,3,28,Underweight 
+Paneer (Cottage Cheese),264,18,3,Underweight
+Peanut Chikki,320,10,40,Underweight
+Pav Bhaji,400,8,45,Underweight
+Dosa,380,8,55,Underweight
+Egg Rice,350,12,48,Underweight
+Mutton Curry,420,28,10,Underweight
+Fish Fry,300,22,5,Underweight
+Besan Chilla,250,10,30,Underweight
+Misal Pav,380,12,50,Underweight
+Aloo Poori,420,6,52,Underweight
+Bread Butter,280,5,32,Underweight
+Kheer,330,8,45,Underweight
+Banana Shake,310,6,50,Underweight
+Puri Bhaji,390,7,46,Underweight
+Pongal,320,9,40,Underweight
+Vegetable Biryani,350,7,48,Underweight
+Egg Paratha,330,12,38,Underweight
+Sheera (Sooji Halwa),310,5,45,Underweight
+Pav Omelette,360,16,30,Underweight
+Butter Naan,280,8,35,Underweight
+Chicken Biryani,420,25,45,Underweight
+Daliya Khichdi,190,6,28,Normal
+Mixed Dal,160,9,20,Normal
+Sprouts Upma,180,8,25,Normal
+Avocado Salad,150,2,10,Normal
+Vegetable Sandwich,210,6,28,Normal
+Peanut Salad,180,10,12,Normal
+Masala Corn,160,4,22,Normal
+Curd Rice,200,5,30,Normal
+Rasam,60,2,10,Normal
+Pumpkin Soup,100,3,14,Normal
+Barley Khichdi,190,6,29,Normal
+Vegetable Dhokla,140,6,22,Normal
+Ragi Malt,130,3,20,Normal
+Cornflakes with Milk,180,6,30,Normal
+Soya Curry,210,16,15,Normal
+Vegetable Cutlet,160,4,22,Normal
+Chole Tikki,210,6,28,Normal
+Lemon Rice,220,4,35,Normal
+Beetroot Salad,90,2,12,Normal
+Curd Oats,150,7,18,Normal
+Khakra (Plain),50,2,8,Overweight
+Idiyappam,90,2,20,Overweight
+Boiled Corn,96,3,21,Overweight
+Vegetable Uttapam (Low Oil),140,5,22,Overweight
+Low Oil Pav Bhaji,150,4,24,Overweight
+Clear Veg Ramen (Indian Style),120,5,20,Overweight
+Masala Chapati (Low Oil),110,4,17,Overweight
+Sprouts Poha,140,6,23,Overweight
+Low Fat Paneer Tikka,150,18,6,Overweight
+Dalia Upma,130,5,20,Overweight
+Oats Khichdi,120,4,18,Overweight
+Boiled Black Chana,140,10,18,Overweight
+Masala Sweet Potato,100,2,22,Overweight
+Dahi Puri (Without Sev),150,6,20,Overweight
+Soya Upma,130,10,16,Overweight
+Low Fat Chicken Soup,110,18,3,Overweight
+Pumpkin Sabzi,90,3,12,Overweight
+Beetroot Soup,80,2,12,Overweight
+Lemon Rasam,70,1,11,Overweight
+Cabbage Soup,60,2,9,Overweight
+Carrot Soup,40,1,8,Obese
+Clear Spinach Broth,35,2,5,Obese
+Steamed Bottle Gourd,45,2,7,Obese
+Plain Raita (Low Fat),50,4,5,Obese
+Apple Salad (No Sugar),55,0,14,Obese
+Papaya Bowl,60,1,15,Obese
+Mint Lemon Drink (No Sugar),10,0,1,Obese
+Steamed Idiyappam,50,1,11,Obese
+Oats Soup,70,3,10,Obese
+Clear Sprouts Soup,65,6,9,Obese
+Carrot Raita,55,3,7,Obese
+Spinach Salad,45,3,5,Obese
+Tomato Cucumber Salad,35,1,5,Obese
+Mixed Fruit (Small Bowl),70,1,17,Obese
+Low Fat Vegetable Stew,60,2,8,Obese
+Moong Dal Drink,50,4,8,Obese
+Vegetable Moong Sprouts,60,5,10,Obese
+Cucumber Buttermilk,40,2,4,Obese
+Detox Water Fruits,5,0,1,Obese
+Lettuce Salad,30,1,4,Obese
+Mushroom Soup,55,3,7,Obese
+Broccoli Salad,50,3,8,Obese
+Carrot Beet Juice (No Sugar),45,1,10,Obese
+Spinach Moong Stew,65,5,9,Obese
+Oats Dosa (No Oil),70,3,11,Obese
+Ragi Idiyappam,60,2,13,Obese
+Low Oil Mixed Veg,55,2,9,Obese
+Lauki Soup,50,2,7,Obese
+Tulsi Tea (No Sugar),5,0,1,Obese
+Ginger Water,5,0,0,Obese

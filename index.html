@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DietX - Diet Monitoring</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans min-h-screen bg-gradient-to-br from-black via-pink-200 to-blue-400 text-white">
+    <header class="text-center py-5 bg-black bg-opacity-70">
+        <h1 class="text-4xl md:text-5xl font-bold m-0 text-pink-200">DietX</h1>
+        <p class="text-lg mt-2 text-blue-200">Your Personalized Diet Companion</p>
+    </header>
+    
+    <main class="max-w-4xl mx-auto my-5 p-5 bg-white bg-opacity-10 rounded-lg shadow-lg">
+        <section id="bmi-calculator" class="mb-8">
+            <h2 class="text-2xl font-semibold text-center mb-5 text-pink-200">BMI Calculator</h2>
+            <form id="bmi-form" class="flex flex-col gap-4">
+                <label for="height" class="font-bold text-blue-200">Height (cm):</label>
+                <input type="number" id="height" class="p-3 rounded-md border-none text-black bg-pink-100" required>
+                
+                <label for="weight" class="font-bold text-blue-300">Weight (kg):</label>
+                <input type="number" id="weight" class="p-3 rounded-md border-none text-black bg-dark pink-250" required>
+                
+                <button type="button" onclick="calculateBMI()" class="p-3 bg-pink-400 text-black rounded-md hover:bg-pink-300 transition duration-300 font-semibold">Calculate BMI</button>
+            </form>
+            <div id="bmi-result" class="mt-5 p-4 bg-black bg-opacity-50 rounded-md text-center text-pink-200"></div>
+        </section>
+        
+        <section id="diet-recommendations" class="mb-8">
+            <h2 class="text-2xl font-semibold text-center mb-5 text-blue-250">Get Diet Recommendations</h2>
+            <form id="diet-form" class="flex flex-col gap-4">
+                <label for="age" class="font-bold text-pink-190">Age:</label>
+                <input type="number" id="age" class="p-3 rounded-md border-none text-black bg-blue-100" required>
+                
+                <label for="gender" class="font-bold text-pink-190">Gender:</label>
+                <select id="gender" class="p-3 rounded-md border-none text-black bg-blue-100" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                
+                <label for="height2" class="font-bold text-pink-250">Height (cm):</label>
+                <input type="number" id="height2" class="p-3 rounded-md border-none text-black bg-blue-100" required>
+                
+                <label for="weight2" class="font-bold text-pink-250">Weight (kg):</label>
+                <input type="number" id="weight2" class="p-3 rounded-md border-none text-black bg-blue-100" required>
+                
+                <button type="button" onclick="getRecommendations()" class="p-3 bg-blue-400 text-white rounded-md hover:bg-blue-300 transition duration-300 font-semibold">Get Recommendations</button>
+            </form>
+            <div id="recommendations" class="mt-5 p-4 bg-black bg-opacity-50 rounded-md text-center text-blue-200"></div>
+        </section>
+    </main>
+    
+    <footer class="text-center py-3 bg-black bg-opacity-70">
+        <p class="text-pink-200">&copy; 2025 DietX. Made by Danish Nehru.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
